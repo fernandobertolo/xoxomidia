@@ -4,7 +4,7 @@ def extrai_titulo_linha_fina(self):
     try:
         pag.raise_for_status()
     except:
-        print("Download deu merda")
+        print("Deu merda no download")
 
     sopa = bs4.BeautifulSoup(pag.text, features="html.parser")
     titulo = sopa.find(itemprop='headline').get_text()
@@ -30,4 +30,3 @@ def encontra_e_salva_imagem(self, posicao_da_imagem=8):
     f.write(requests.get(img).content)
     f.close()
 
-    
