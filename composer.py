@@ -6,6 +6,12 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)s- %(levelname)s- %(m
 text = "É a segunda vez que a democracia tem assento junto com o inimigo no banco dos réus"
 
 
+##################   objeto  ########################
+# teste teste aknfpisudb fisunoj
+
+
+
+#####################################################
 
 def defineTextSize():
     pass
